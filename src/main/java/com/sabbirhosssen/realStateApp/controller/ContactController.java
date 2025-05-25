@@ -16,7 +16,7 @@ public class ContactController {
     private ContactService  con;
     @RequestMapping("/c")
     public String  geet_es(){
-        return "hello starting the Notation Real Estate App app";
+        return "hello, Contact starting the Notation Real Estate App ";
     }
 
     @PostMapping("/contact")
